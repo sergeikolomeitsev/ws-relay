@@ -14,7 +14,7 @@ import aiohttp
 import aiohttp.web
 import websockets
 
-BYBIT_WS = "wss://stream.bybit.com/v5/public/spot"
+BYBIT_WS = "wss://stream.bybit.com/v5/public"
 
 # ----------------------------------------------------------------
 # Connect to Bybit and return a live websocket connection
