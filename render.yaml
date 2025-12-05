@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ws-relay
+    env: python
+    buildCommand: ""
+    startCommand: "python ws_relay_server.py"
+    plan: free
+    region: frankfurt
+    autoDeploy: true
