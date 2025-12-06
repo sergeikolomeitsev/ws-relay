@@ -4,7 +4,7 @@ import aiohttp
 import aiohttp.web
 import websockets
 
-BYBIT_WS = "wss://stream.bybit.com/v5/public/spot"
+wss://stream.bybit.com/contract/usdt/public/v3
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
