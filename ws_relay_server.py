@@ -10,7 +10,7 @@ import aiohttp
 import aiohttp.web
 import websockets
 
-BYBIT_WS = "wss://stream.bybit.com/spot/public/v3"
+BYBIT_WS = "wss://stream.bybit.com/v3/public/spot"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
